@@ -1,0 +1,27 @@
+@import './base.css';
+
+#app {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 30px 15px;
+  font-weight: normal;
+  position: relative;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: auto;
+  background: rgb(2, 212, 54);
+  color: #fff;
+  border: 0;
+  transition: 300ms ease;
+}
+
+.btn:hover {
+  background: rgb(9, 226, 255);
+  cursor: pointer;
+}
